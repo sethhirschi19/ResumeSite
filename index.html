@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--This the the info for my like tab title and I also load in bootstrap along with the styles sheet-->
+	<title>My Resume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!--This makes my tabs bar so I can make them into on page links.-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+		<div class="container">
+			<a class="navbar-brand" href="#">My Resume</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#profile">Profile</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#experience">Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#education">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#interests">Interests</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#style">Style</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-4">
+				<!--This draws my profile pic in a circle using bootstrap and places it well also using bootstrap-->
+				<img src="profilePic.jpeg" alt="Profile Picture" class="img-fluid rounded-circle profile-pic">
+			</div>
+			<div class="col-md-8">
+				<h1>Seth Hirschi</h1>
+				<p>Email: sethhirschi19@gmail.com</p>
+				<p>Phone: +1 801-618-6560</p>
+				<p>Address: 1101 N. 1100 E. Layton, Utah</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-12">
+				<!--Write my profile info-->
+				<h2 id="profile">Profile</h2>
+				<p>I am an ambitious student that soaks up information and is excited to learn. With experience in management, manufacturing, selling and personal relations across multiple states and different countries.</p>
+				<p>I am well qualified to tackle problems and discover solutions to improve productivity</p>
+				<p></p>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-12">
+			<h2 id="experience">Experience</h2>
+  <ul>
+    <li>
+	  <!--Write out my info running a facebook page in the mission-->
+      <h4>Full Time Missionary Dnipro, Ukraine</h4>
+      <p>Social Media Specialist Aug 2020 to Jan 2021</p>
+      <ul>
+        <li>Administrator on Mission Facebook page with over 50,000 Followers</li>
+        <li>Created and posted relevant content to help spread the Gospel</li>
+        <li>Taught and trained other missionaries best practices concerning social media</li>
+        <li>Limited experience in ad creation and audience targeting</li>
+      </ul>
+    </li>
+    <li>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-12">
+			<h2 id="education">Education</h2>
+  <ul>
+    <li>
+      <h4>Brigham Young University, BYU Marriott School of Business</h4>
+      <p>Pre- Provo, UT</p>
+      <ul>
+        <li>Overall GPA 3.85</li>
+        <li>ACT 28</li>
+        <li>Starting Freshman year with 32 credits</li>
+        <li>BYUSA experiences team member</li>
+        <li>Proficient in Excel, SQL, Tableau, VBA</li>
+      </ul>
+    </li>
+  </ul>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-12">
+			<h2 id="interests">Interests</h2>
+			<p>I'm interested in sports, adventure, anything outdoors and with other people. I love spending time with family and friends and meeting new people. I enjoy a good challenge and trying new things.'</p>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-12">
+			<h2 id="style">Style</h2
+			<p>body {
+				background-image: url(background.jpg);
+				background-size: cover;
+				background-position: center center;
+				background-attachment: fixed;
+				}
+			.profile-pic {
+				border-radius: 50%;
+				width: 200px;
+				height: 200px;
+				object-fit: cover;
+			}
+			.nav-link {
+			color: white;
+			}
+			.nav-link:hover {
+				color: #ffc107;
+			}
+			.nav-tabs .nav-link.active {
+				color: #ffc107;
+				background-color: transparent;
+				border-color: transparent;
+}			</p>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- Loads in bootstrap js code -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>

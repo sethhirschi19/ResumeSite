@@ -1,0 +1,29 @@
+body {
+	background-image: url(wallpaper.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.profile-pic {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+.nav-link {
+	color: black;
+}
+.nav-link:hover {
+	color: #ffc107;
+}
+.nav-tabs .nav-link.active {
+	color: #ffc107;
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-nav .nav-link{
+	color: black !important;
+}
+.navbar-brand{
+	color: black !important;
+}
